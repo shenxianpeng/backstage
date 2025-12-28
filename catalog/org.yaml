@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: xpshen
+  description: PyPI package maintainer (xpshen)
+spec:
+  type: team
+  profile:
+    displayName: Xianpeng Shen
+    email: xianpeng.shen@gmail.com
+  children: []

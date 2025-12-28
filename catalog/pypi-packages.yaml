@@ -1,0 +1,221 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: pypi-packages
+  description: Open source packages published on PyPI
+  links:
+    - url: https://pypi.org/user/xpshen/
+      title: PyPI Profile
+    - url: https://shenxianpeng.github.io/portfolio/pypistats/
+      title: Portfolio (PyPI projects)
+spec:
+  owner: group:xpshen
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: commit-check
+  description: PyPI package commit-check
+  annotations:
+    github.com/project-slug: commit-check/commit-check
+  links:
+    - url: https://pypi.org/project/commit-check/
+      title: PyPI
+    - url: https://github.com/commit-check/commit-check
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: clang-tools
+  description: PyPI package clang-tools
+  annotations:
+    github.com/project-slug: cpp-linter/clang-tools
+  links:
+    - url: https://pypi.org/project/clang-tools/
+      title: PyPI
+    - url: https://github.com/cpp-linter/clang-tools
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cpp-linter
+  description: PyPI package cpp-linter
+  annotations:
+    github.com/project-slug: cpp-linter/cpp-linter
+  links:
+    - url: https://pypi.org/project/cpp-linter/
+      title: PyPI
+    - url: https://github.com/cpp-linter/cpp-linter
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cpp-linter-hooks
+  description: PyPI package cpp-linter-hooks
+  annotations:
+    github.com/project-slug: cpp-linter/cpp-linter-hooks
+  links:
+    - url: https://pypi.org/project/cpp-linter-hooks/
+      title: PyPI
+    - url: https://github.com/cpp-linter/cpp-linter-hooks
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gitstats
+  description: PyPI package gitstats
+  annotations:
+    github.com/project-slug: shenxianpeng/gitstats
+  links:
+    - url: https://pypi.org/project/gitstats/
+      title: PyPI
+    - url: https://github.com/shenxianpeng/gitstats
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gnuplot-wheel
+  description: PyPI package gnuplot-wheel
+  annotations:
+    github.com/project-slug: shenxianpeng/gnuplot-wheel
+  links:
+    - url: https://pypi.org/project/gnuplot-wheel/
+      title: PyPI
+    - url: https://github.com/shenxianpeng/gnuplot-wheel
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: atlassian-api-py
+  description: PyPI package atlassian-api-py
+  annotations:
+    github.com/project-slug: shenxianpeng/atlassian-api-py
+  links:
+    - url: https://pypi.org/project/atlassian-api-py/
+      title: PyPI
+    - url: https://github.com/shenxianpeng/atlassian-api-py
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: badgepy
+  description: PyPI package badgepy
+  annotations:
+    github.com/project-slug: shenxianpeng/badgepy
+  links:
+    - url: https://pypi.org/project/badgepy/
+      title: PyPI
+    - url: https://github.com/shenxianpeng/badgepy
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jenkinsfilelint
+  description: PyPI package jenkinsfilelint
+  annotations:
+    github.com/project-slug: shenxianpeng/jenkinsfilelint
+  links:
+    - url: https://pypi.org/project/jenkinsfilelint/
+      title: PyPI
+    - url: https://github.com/shenxianpeng/jenkinsfilelint
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: py-eol
+  description: PyPI package py-eol
+  annotations:
+    github.com/project-slug: shenxianpeng/py-eol
+  links:
+    - url: https://pypi.org/project/py-eol/
+      title: PyPI
+    - url: https://github.com/shenxianpeng/py-eol
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: used-by
+  description: PyPI package used-by
+  annotations:
+    github.com/project-slug: shenxianpeng/used-by
+  links:
+    - url: https://pypi.org/project/used-by/
+      title: PyPI
+    - url: https://github.com/shenxianpeng/used-by
+      title: GitHub
+  tags: [python, pypi]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:xpshen
+  system: pypi-packages

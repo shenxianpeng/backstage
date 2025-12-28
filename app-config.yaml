@@ -3,7 +3,7 @@ app:
   baseUrl: http://localhost:3000
 
 organization:
-  name: My Company
+  name: Xianpeng Shen
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
@@ -93,6 +93,17 @@ catalog:
       target: ../../examples/org.yaml
       rules:
         - allow: [User, Group]
+
+    # Xianpeng Shen open source catalog
+    - type: file
+      target: ../../catalog/org.yaml
+      rules:
+        - allow: [Group]
+
+    - type: file
+      target: ../../catalog/pypi-packages.yaml
+      rules:
+        - allow: [System, Component]
 
     ## Uncomment these lines to add more example data
     # - type: url
