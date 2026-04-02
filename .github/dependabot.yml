@@ -1,0 +1,29 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      backstage:
+        patterns:
+          - "@backstage/*"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "react-router"
+          - "react-router-dom"
+          - "@types/react"
+          - "@types/react-dom"
+      testing:
+        patterns:
+          - "@testing-library/*"
+          - "@jest/*"
+          - "@types/jest"
+          - "jest"
+          - "jsdom"
+          - "@playwright/test"
+      typescript:
+        patterns:
+          - "typescript"
