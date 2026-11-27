@@ -166,14 +166,14 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: jenkinsfilelint
-  description: PyPI package jenkinsfilelint
+  name: jenkins-lint
+  description: PyPI package jenkins-lint
   annotations:
-    github.com/project-slug: shenxianpeng/jenkinsfilelint
+    github.com/project-slug: jenkinsci/jenkins-lint
   links:
-    - url: https://pypi.org/project/jenkinsfilelint/
+    - url: https://pypi.org/project/jenkins-lint/
       title: PyPI
-    - url: https://github.com/shenxianpeng/jenkinsfilelint
+    - url: https://github.com/jenkinsci/jenkins-lint
       title: GitHub
   tags: [python, pypi]
 spec:
